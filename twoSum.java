@@ -35,8 +35,8 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 
 
-public class twoSum (String[] args) {
-    public static void main() {
+public class twoSum {
+    public static void main(String[] args) {
         System.out.println("Hi How are you");
     }
 }
