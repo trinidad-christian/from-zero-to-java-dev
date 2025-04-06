@@ -32,11 +32,13 @@ Only one valid answer exists.
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
-
+import java.util.Scanner;
 
 
 public class twoSum {
     public static void main(String[] args) {
+        Scanner scanner = new scanner(System.in);
+        
         System.out.println("Hi How are you");
     }
 }
