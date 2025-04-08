@@ -37,14 +37,13 @@ import java.util.Scanner;
 
 public class twoSum {
     public static void main(String[] args) {
-        Scanner scanner = new scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
             //Stores a target number that is given from the user in an local variable
             System.out.print("Give me a target number.");
             int target = scan.nextInt();
 
             //Asks the user how long they want the array to be
-
             System.out.println("How long do you want the array to be? (It has to be at least 2 numebers please don't make it too long):");
             int nums_length = scan.nextInt();
 
@@ -52,14 +51,9 @@ public class twoSum {
             int[] numbers = new int[nums_length];
 
             for(int i= 0; i < numbers.length ; i++) {
-                System.out.println("Give me a number for the array element number: " + (numbers[i] - 1 ));
-                int[] nums = scan.nextInt();
+                System.out.println("Give me a new number for the array element : " + (i + 1 ));
+             numbers[i] = scan.nextInt();
             }
-
-
-
-
-
         
     }
 }
