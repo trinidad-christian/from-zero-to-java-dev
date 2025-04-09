@@ -51,21 +51,22 @@ public class twoSum {
             int[] numbers = new int[nums_length];
 
             for(int i= 0; i < numbers.length ; i++) {
-                System.out.println("Give me a new number for the array element : " + (i));
+                System.out.println("Give me a new number for the array index #" + (i));
                 numbers[i] = scan.nextInt();
             }
 
             //Now we will begin trying to find the needed tow indexes that add up to target
 
-             for(int i= 0; i < numbers.length ; i++) {
-                if(numbers[i] + numbers[i+ 1] == target && numbers[i+1] < numbers.length)
-                    System.out.println("The values of these two indices equals the target number: " + (i) + (i+1) );
+             for(int i= 0; i < numbers.length -1 ; i++) {
+                if(numbers[i] + numbers[i+ 1] == target) {
+                    System.out.println("The addition of the following two indices equals the target number: " + "[" + (i) + "] and [" + (i+1) + "]" );
                     break;
-
+                }
                 for(int j = numbers.length - 1 ; j >= 0 ; j--) {
-                    if(numbers[j] + numbers[i] ==target) 
-                        System.out.println("The values of these two indices equals the target number: " + (j) + (i) );
+                    if(numbers[j] + numbers[i] ==target) {
+                        System.out.println("The addition of the following two indices equals the target number: " +"[" +(j)+ "] and [" +  (i) + "]" );
                         return;
+                    }
                 }
              }
         
