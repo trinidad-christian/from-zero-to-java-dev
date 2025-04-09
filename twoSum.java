@@ -62,10 +62,10 @@ public class twoSum {
                     System.out.println("The values of these two indices equals the target number: " + (i) + (i+1) );
                     break;
 
-                for(int j = numbers.length - 1 ; j > -1 ; j--) {
+                for(int j = numbers.length - 1 ; j >= 0 ; j--) {
                     if(numbers[j] + numbers[i] ==target) 
                         System.out.println("The values of these two indices equals the target number: " + (j) + (i) );
-                        break;
+                        return;
                 }
              }
         
