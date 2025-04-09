@@ -40,7 +40,7 @@ public class twoSum {
         Scanner scan = new Scanner(System.in);
 
             //Stores a target number that is given from the user in an local variable
-            System.out.print("Give me a target number.");
+            System.out.print("Give me a target number. ");
             int target = scan.nextInt();
 
             //Asks the user how long they want the array to be
@@ -52,8 +52,14 @@ public class twoSum {
 
             for(int i= 0; i < numbers.length ; i++) {
                 System.out.println("Give me a new number for the array element : " + (i + 1 ));
-             numbers[i] = scan.nextInt();
+                numbers[i] = scan.nextInt();
             }
+
+            //Now we will begin trying to find the needed tow indexes that add up to target
+
+            // for()
         
+
+        scan.close(); //Closes the user input scanner object so we can avoid a resource leak.
     }
 }
