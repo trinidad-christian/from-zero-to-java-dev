@@ -57,7 +57,11 @@ public class twoSum {
 
             //Now we will begin trying to find the needed tow indexes that add up to target
 
-            // for()
+             for(int i= 0; i < numbers.length ; i++) {
+                for(int i = numbers.length -1 ; i < 0 ; i--) {
+                    
+                }
+             }
         
 
         scan.close(); //Closes the user input scanner object so we can avoid a resource leak.
