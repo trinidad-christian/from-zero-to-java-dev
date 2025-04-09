@@ -57,12 +57,12 @@ public class twoSum {
 
             //Now we will begin trying to find the needed tow indexes that add up to target
 
-             for(int i= 0; i <= numbers.length ; i++) {
-                if(numbers[i] + numbers[i+ 1] == target)
+             for(int i= 0; i < numbers.length ; i++) {
+                if(numbers[i] + numbers[i+ 1] == target && numbers[i+1] < numbers.length)
                     System.out.println("The values of these two indices equals the target number: " + (i) + (i+1) );
                     break;
 
-                for(int j = numbers.length - 1 ; j >= -1 ; j--) {
+                for(int j = numbers.length - 1 ; j > -1 ; j--) {
                     if(numbers[j] + numbers[i] ==target) 
                         System.out.println("The values of these two indices equals the target number: " + (j) + (i) );
                         break;
