@@ -40,7 +40,7 @@ public class twoSum {
         Scanner scan = new Scanner(System.in);
 
             //Stores a target number that is given from the user in an local variable
-            System.out.print("Give me a target number. ");
+            System.out.print("Give me a target number: ");
             int target = scan.nextInt();
 
             //Asks the user how long they want the array to be
@@ -51,15 +51,21 @@ public class twoSum {
             int[] numbers = new int[nums_length];
 
             for(int i= 0; i < numbers.length ; i++) {
-                System.out.println("Give me a new number for the array element : " + (i + 1 ));
+                System.out.println("Give me a new number for the array element : " + (i));
                 numbers[i] = scan.nextInt();
             }
 
             //Now we will begin trying to find the needed tow indexes that add up to target
 
-             for(int i= 0; i < numbers.length ; i++) {
-                for(int i = numbers.length -1 ; i < 0 ; i--) {
-                    
+             for(int i= 0; i <= numbers.length ; i++) {
+                if(numbers[i] + numbers[i+ 1] == target)
+                    System.out.println("The values of these two indices equals the target number: " + (i) + (i+1) );
+                    break;
+
+                for(int j = numbers.length - 1 ; j >= -1 ; j--) {
+                    if(numbers[j] + numbers[i] ==target) 
+                        System.out.println("The values of these two indices equals the target number: " + (j) + (i) );
+                        break;
                 }
              }
         
