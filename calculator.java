@@ -24,8 +24,16 @@ public class calculator {
         //If and else statements to do the operation the user wants to be done.
         if (operation == 1) {
             System.out.println("Calculation: " + (first_number + second_number));
+        } else if (operation == 2)  {
+            System.out.println("Calculation: " + (first_number + second_number));
+        } else if (operation == 3) {
+            System.out.println("Calculation: " + (first_number * second_number));
+        } else if (operation == 4) {
+            System.out.println("Calculation: " + (first_number / second_number));
+        } else {
+            System.out.println("You gave me a wrong number for the operations it's either 1, 2,3, or 4");
         }
-        
+
 
 
 
