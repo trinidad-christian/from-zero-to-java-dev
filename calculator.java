@@ -9,7 +9,7 @@ public class calculator {
 
         //Gets the operations the user whats to do and the numbers. A lot of text.... 
         //I will try and find a way to make this more effiecient in the future.
-        System.out.println("Hello, " + name + " what operations are you going to do today?" + 
+        System.out.println("Hello, " + name + " what operation are you going to do today?" + 
         System.lineSeparator() + "1. Addition" + System.lineSeparator() + "2. Subtraction" + 
         System.lineSeparator() + "3. Multiplication" + System.lineSeparator() + 
         "4. Division" );
@@ -25,13 +25,13 @@ public class calculator {
         if (operation == 1) {
             System.out.println("Calculation: " + (first_number + second_number));
         } else if (operation == 2)  {
-            System.out.println("Calculation: " + (first_number + second_number));
+            System.out.println("Calculation: " + (first_number - second_number));
         } else if (operation == 3) {
             System.out.println("Calculation: " + (first_number * second_number));
-        } else if (operation == 4) {
+        } else if (operation == 4 && second_number != 0) {
             System.out.println("Calculation: " + (first_number / second_number));
         } else {
-            System.out.println("You gave me a wrong number for the operations it's either 1, 2,3, or 4");
+            System.out.println("You gave me a 0 for denominator when dividing or wrong number for the operations it's either 1, 2,3, or 4");
         }
 
 
