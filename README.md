@@ -34,7 +34,7 @@ In the [`projects/`](./projects) folder, I take on small and big Java projects t
 My first ever Java project. A basic calculator that interacts with the user through the terminal. Great intro to conditionals, input/output, and data types.
 
 ### `mario2D/`  
-🚧 *Currently in progress!*  
+🚧 *Currently in progress!*  (Check out my other respository for this project)
 A 2D Mario-inspired game using Java + LWJGL. This is where I'm learning the basics of game development including:
 
 - Creating a game window
