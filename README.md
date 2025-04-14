@@ -66,4 +66,5 @@ A 2D Mario-inspired game using Java + LWJGL. This is where I'm learning the basi
 ## 👀 Want to Follow Along?
 
 If you're learning Java too, feel free to explore the code, suggest improvements, or reach out!
+www.linkedin.com/in/christian-t-171213297
 
