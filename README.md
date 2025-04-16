@@ -12,9 +12,9 @@ Inside the [`leetcode/`](./leetcode) folder you'll find my solutions to problems
 - `twoSum.java` – My first LeetCode problem (difficulty: easy)
 - `duplicates.java` – My second LeetCode problem (difficulty: easy)
 - `largestNumber.java` – A challenge I found and solved via ChatGPT
-- `caeserCipher.java` - AP Computer Science A frq problem that I solved
-- `caesarCipher2.java` -AP Computer Science A frq problem that I solved
-- ``
+- `CaeserCipher.java` - AP Computer Science A frq problem that I solved
+- `CaesarCipher2.java` -AP Computer Science A frq problem that I solved
+- `DigitSummarize` - AP Computer Science A frq problem that I solved
 
 ---
 
