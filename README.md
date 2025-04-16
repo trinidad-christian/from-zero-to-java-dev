@@ -14,7 +14,7 @@ Inside the [`leetcode/`](./leetcode) folder you'll find my solutions to problems
 - `largestNumber.java` – A challenge I found and solved via ChatGPT
 - `CaeserCipher.java` - AP Computer Science A frq problem that I solved
 - `CaesarCipher2.java` -AP Computer Science A frq problem that I solved
-- `DigitSummarize` - AP Computer Science A frq problem that I solved
+- `DigitSummarize.java` - AP Computer Science A frq problem that I solved
 
 ---
 
