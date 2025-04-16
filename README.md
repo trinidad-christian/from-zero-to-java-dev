@@ -15,6 +15,7 @@ Inside the [`leetcode/`](./leetcode) folder you'll find my solutions to problems
 - `CaeserCipher.java` - AP Computer Science A frq problem that I solved
 - `CaesarCipher2.java` -AP Computer Science A frq problem that I solved
 - `DigitSummarizer.java` - AP Computer Science A frq problem that I solved
+- `DigitSummarizer2.java` - AP Computer Science A frq problem that I solved
 
 ---
 
