@@ -21,7 +21,15 @@ public class calculator {
         Double first_number = scan.nextDouble();
         System.out.println("Now the second: ");
         Double second_number = scan.nextDouble();
-        //If and else statements to do the operation the user wants to be done.
+        //using switch commands rather than a bunch of if and elses
+
+        switch(operation) {
+            case 1 :
+                System.out.println("Calculation:" + (first_number + second_number));
+                break;
+        }
+
+        /* 
         if (operation == 1) {
             System.out.println("Calculation: " + (first_number + second_number));
         } else if (operation == 2)  {
@@ -35,7 +43,7 @@ public class calculator {
         }
 
 
-
+        */
 
         scan.close();
     }
