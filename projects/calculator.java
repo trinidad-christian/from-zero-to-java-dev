@@ -25,26 +25,26 @@ public class calculator {
 
         switch(operation) {
             case 1 :
-                System.out.println("Calculation:" + (first_number + second_number));
+                System.out.println("Calculation: " + (first_number + second_number));
                 break;
+            case 2 : 
+                System.out.println("Caculation: " + (first_number - second_number));
+                break;
+            case 3: 
+                System.out.println("Calculation: " + (first_number * second_number));
+                break;
+            case 4: 
+                if (second_number ==0) {
+                    System.out.println("You gave me a 0 for denominator when dividing that's not possible");
+                    break;
+                }
+                System.out.println("Calculation: " + (first_number / second_number));
+
+            default: 
+                System.out.println("You gave me a wrong number for the operations it's either 1, 2, 3 , or 4");
+                
+                
         }
-
-        /* 
-        if (operation == 1) {
-            System.out.println("Calculation: " + (first_number + second_number));
-        } else if (operation == 2)  {
-            System.out.println("Calculation: " + (first_number - second_number));
-        } else if (operation == 3) {
-            System.out.println("Calculation: " + (first_number * second_number));
-        } else if (operation == 4 && second_number != 0) {
-            System.out.println("Calculation: " + (first_number / second_number));
-        } else {
-            System.out.println("You gave me a 0 for denominator when dividing or wrong number for the operations it's either 1, 2,3, or 4");
-        }
-
-
-        */
-
         scan.close();
     }
 }
