@@ -34,10 +34,10 @@ In the [`notes/`](./notes) folder, I jot down things I'm learning. These aren't 
 
 In the [`projects/`](./projects) folder, I take on small and big Java projects to improve my skills:
 
-## tree-project/
+## `Tree.java`
 🌳 A small Java program I completed through Codecademy where I introduced myself and "planted" a tree using `System.out.println()`. This was a fun intro to Java syntax and printing formatted output.
 
-### `calculator/`  
+### `calculator.java`  
 My first ever Java project. A basic calculator that interacts with the user through the terminal. Great intro to conditionals, input/output, and data types.
 
 ### `mario2D/`  
