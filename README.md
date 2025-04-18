@@ -37,7 +37,7 @@ In the [`projects/`](./projects) folder, I take on small and big Java projects t
 ## `Tree.java`
 🌳 A small Java program I completed through Codecademy where I introduced myself and "planted" a tree using `System.out.println()`. This was a fun intro to Java syntax and printing formatted output.
 
-### `calculator.java`  
+### `Calculator.java`  
 My first ever Java project. A basic calculator that interacts with the user through the terminal. Great intro to conditionals, input/output, and data types.
 
 ### `mario2D/`  
