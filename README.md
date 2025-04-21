@@ -37,9 +37,9 @@ In the [`projects/`](./projects) folder, I take on small and big Java projects t
 - `Tree.java` - 🌳 A small Java program I completed through Codecademy where I introduced myself and "planted" a tree using `System.out.println()`. This was a fun intro to Java syntax and printing formatted output.
 
 - `MadLibs.java` - 📝 A Java project where I created a mad lib-style story using variables for nouns, adjectives, names, and more. This helped me get more comfortable with working with strings, variables, and printing structured output.
-- `Magic.java` - 
+- `Magic.java` - 🎩 A fun number trick program that performs a series of arithmetic operations on a number and always ends with the same result. This exercise helped me practice order of operations, integer division, and working with variables step by step.
 
--`Calculator.java` -My first ever Java project. A basic calculator that interacts with the user through the terminal. Great intro to conditionals, input/output, and data types.
+-`Calculator.java` -➕ My first ever Java project. A basic calculator that interacts with the user through the terminal. Great intro to conditionals, input/output, and data types.
 
 ### `mario2D/`  
 🚧 *Currently in progress!*  (Check out my other respository for this project)
