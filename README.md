@@ -58,7 +58,6 @@ A 2D Mario-inspired game using Java + LWJGL. This is where I'm learning the basi
 - LeetCode problem solving
 - LWJGL (Lightweight Java Game Library)
 - Gradle build system
-- Git & GitHub
 
 ---
 
