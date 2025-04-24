@@ -25,7 +25,6 @@ In the [`notes/`](./notes) folder, I jot down things I'm learning. These aren't 
 
 - Arrays
 - Loops
-- Operators
 - Basic Java syntax
 
 ---
